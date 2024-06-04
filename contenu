@@ -1,0 +1,11 @@
+Au debut de mon projet j'ai commencer par creer le model merise (MLD,MPD) avec figma en etablissant les cardinalitées
+Puis j'ai crée une base de données avec phpmyadmin.
+une fois la base de données créer j'ai preparer mes requetes SQL puis je les aies inclu dans mon projeta travers uin PDO
+objectif: creation DASHBOARD d'une administration
+
+introduction
+analyse merise  MCD avec les cardinalité(PHPMYADMIN) MLD(avec les clefs secondaire)
+ecriture requete slq
+PHP PDO en injectant nos requete slq
+crud en renseignant notre templating
+templating

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projets</title>
+
+    <!-- Boostrap 5 library -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+    <!-- Deux fichiers CSS d'aide à la visualisation (facultatifs). Utilisable individuellement ou ensembles -->
+    <!-- <link rel="stylesheet" href="assets/css/zoning.css"> -->
+    <!-- <link rel="stylesheet" href="assets/css/bootstrap-grid-system.css"> -->
+
+    <!-- Style CSS portfolio-->
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap-grid-system.css">
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+            
+            <!-- Icone burger -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <!-- Ici la class collapse applique un display:flex.
+            Du coup, pour forcer l'item à aller à droite il faut chercher une class boostrap qui s'appelle justify-content-end-->
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup"> <!-- conteneur flex -->
+                <div class="navbar-nav"> <!-- item -->
+                    <a class="nav-link  active" aria-current="page" href="accueil.html">Accueil</a>
+                  
+                    <a class="nav-link " href="projets">projets</a>
+                    <a class="nav-link " href="#softskills">soft skills</a>
+                </div>
+            </div>
+        </div>
+    </nav>  </header>
+
+    <main>
+     <!-- HEADER -->
+
+        <div class="container">
+       
+                <h2 class="my-5 ">Mes Projets</h2>
+              
+               
+                        <div class="row">
+                            <div class="col-12">
+                                <ul><h3 class="text-center my-5 mt-sm-0">
+                                    Classic Model
+                                </h3>
+                                <p>  L'objectif de ce projet est la creation d'un DASHBOARD d'une administration
+
+                                    La realisation de ce projet m'a été d'une grande utilité étant donner que j'ai pu mettre en pratique les connaissances
+                                    que j'ai acquise lors de ma reconversion.
+                                    Différente étapes de realisation:</p>
+                                    <ul>
+                                    <li></li>
+                                    <li>Modelisation de mes différentes tables a travers la méthode merise (MCD,MLD)avec l'outils figma
+                                        J'ai commencer par créer mon MCD: modele conceptuel des données en mettant les clef primaires ainsi que les cardinalités.
+                                        Puis de ce modèle j'ai générer le MPD : modèle physique des données: dans lequel j'ai fais apparaitre les clef secondaires
+                                        ainsi que les relations qui se trouvaient entre mes différente tables</li>
+                                    <li>Import d'une base de données existante dans PhpMyAdmin
+                                        La base de données ayant été importé correctement, a travers l'onglet concepteur j'ai afficher mes tables
+                                        puis j'ai appliqué mon MPD sur mes tables en créant les différentes relation entre les tables et en mettant les clef secondaire
+                                        sur les tables concerné
+                                        </li>
+                                    <li>Préparation de mes requetes SQL:
+                                        j'ai crée un fichier SQL en illustrant les différents cas de figure pour afficher les données de mes tables a travers des jointures de tables.
+                                        </li>
+                                    <li>
+                                        PDO: Mise en relation de mes requetes preparé en les injectant dans mon projet a travers un PDO() </li>
+                                    <li>Application de la méthode MVC</li>
+                                  
+
+                            </ul>  <h3>Procedure PDO/MVC</h3>
+                                <p>Creation d'un dossier projet appeler SQL-classicmodels
+                                    Dans ce dossier projet j'avais un fichier index.php,un fichier database,un fichier php pour chaque table de ma base de données,
+                                    un dossier model,un dossier templates.
+                                    mon fichier index: contenait des liens de chaque model...</p>
+
+
+
+
+                                
+                            </div>
+
+
+
+                   
+          
+
+
+
+
+
+   
+        </div>
+
+</main>
+
+ 
+</body>
+</html>
